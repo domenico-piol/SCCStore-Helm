@@ -3,7 +3,7 @@ entries:
   sccstore-charts:
   - apiVersion: v2
     appVersion: 1.0.1
-    created: "2023-08-07T10:59:55.706779+02:00"
+    created: "2023-08-07T13:26:25.110751+02:00"
     dependencies:
     - condition: database.enabled
       name: database
@@ -18,10 +18,10 @@ entries:
       name: ui
       repository: ""
     description: A Helm chart for Kubernetes
-    digest: abf6977014a5391b736513f9011d4a79e8a0bb3300584f666147abbcefb66eb4
+    digest: 2b607d54d1113f24925750ad0f68618d6d94baea2480a36f3bdb908233c3920c
     name: sccstore-charts
     type: application
     urls:
     - https://domenico-piol.github.io/SCCStore-Helm/sccstore-charts-0.1.0.tgz
     version: 0.1.0
-generated: "2023-08-07T10:59:55.706077+02:00"
+generated: "2023-08-07T13:26:25.110071+02:00"
