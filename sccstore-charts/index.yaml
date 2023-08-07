@@ -22,6 +22,6 @@ entries:
     name: sccstore-charts
     type: application
     urls:
-    - https://github.com/domenico-piol/SCCStore-Helm/sccstore-charts-0.1.0.tgz
+    - https://github.com/domenico-piol/SCCStore-Helm/sccstore-charts/sccstore-charts-0.1.0.tgz
     version: 0.1.0
 generated: "2023-08-07T10:59:55.706077+02:00"
