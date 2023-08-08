@@ -2,8 +2,31 @@ apiVersion: v1
 entries:
   sccstore-charts:
   - apiVersion: v2
+    appVersion: 1.1.3
+    created: "2023-08-08T08:28:43.714076+02:00"
+    dependencies:
+    - condition: database.enabled
+      name: database
+      repository: ""
+    - condition: pcomplaints.enabled
+      name: pcomplaints
+      repository: ""
+    - condition: qcomplaints.enabled
+      name: qcomplaints
+      repository: ""
+    - condition: ui.enabled
+      name: ui
+      repository: ""
+    description: A Helm chart for Kubernetes
+    digest: ddf84f8de3302b354a73875d2e9119cefcec0b611dbe4b0879da03be5d5fb5b5
+    name: sccstore-charts
+    type: application
+    urls:
+    - https://domenico-piol.github.io/SCCStore-Helm/sccstore-charts-1.1.3.tgz
+    version: 1.1.3
+  - apiVersion: v2
     appVersion: 1.1.2
-    created: "2023-08-07T15:20:01.218133+02:00"
+    created: "2023-08-08T08:28:43.713512+02:00"
     dependencies:
     - condition: database.enabled
       name: database
@@ -26,7 +49,7 @@ entries:
     version: 1.1.2
   - apiVersion: v2
     appVersion: 1.1.1
-    created: "2023-08-07T15:20:01.217636+02:00"
+    created: "2023-08-08T08:28:43.71299+02:00"
     dependencies:
     - condition: database.enabled
       name: database
@@ -49,7 +72,7 @@ entries:
     version: 1.1.1
   - apiVersion: v2
     appVersion: 1.1.0
-    created: "2023-08-07T15:20:01.217135+02:00"
+    created: "2023-08-08T08:28:43.712497+02:00"
     dependencies:
     - condition: database.enabled
       name: database
@@ -72,7 +95,7 @@ entries:
     version: 1.1.0
   - apiVersion: v2
     appVersion: 1.0.4
-    created: "2023-08-07T15:20:01.216633+02:00"
+    created: "2023-08-08T08:28:43.711995+02:00"
     dependencies:
     - condition: database.enabled
       name: database
@@ -95,7 +118,7 @@ entries:
     version: 1.0.4
   - apiVersion: v2
     appVersion: 1.0.3
-    created: "2023-08-07T15:20:01.216123+02:00"
+    created: "2023-08-08T08:28:43.711487+02:00"
     dependencies:
     - condition: database.enabled
       name: database
@@ -118,7 +141,7 @@ entries:
     version: 1.0.3
   - apiVersion: v2
     appVersion: 1.0.2
-    created: "2023-08-07T15:20:01.215601+02:00"
+    created: "2023-08-08T08:28:43.710973+02:00"
     dependencies:
     - condition: database.enabled
       name: database
@@ -141,7 +164,7 @@ entries:
     version: 1.0.2
   - apiVersion: v2
     appVersion: 1.0.1
-    created: "2023-08-07T15:20:01.215017+02:00"
+    created: "2023-08-08T08:28:43.710458+02:00"
     dependencies:
     - condition: database.enabled
       name: database
@@ -162,4 +185,4 @@ entries:
     urls:
     - https://domenico-piol.github.io/SCCStore-Helm/sccstore-charts-0.1.0.tgz
     version: 0.1.0
-generated: "2023-08-07T15:20:01.212358+02:00"
+generated: "2023-08-08T08:28:43.70945+02:00"
