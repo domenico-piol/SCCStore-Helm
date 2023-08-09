@@ -2,8 +2,34 @@ apiVersion: v1
 entries:
   sccstore-charts:
   - apiVersion: v2
+    appVersion: 1.2.2
+    created: "2023-08-09T15:50:55.991186+02:00"
+    dependencies:
+    - condition: database.enabled
+      name: database
+      repository: ""
+    - condition: pcomplaints.enabled
+      name: pcomplaints
+      repository: ""
+    - condition: qcomplaints.enabled
+      name: qcomplaints
+      repository: ""
+    - condition: ui.enabled
+      name: ui
+      repository: ""
+    - condition: ansible.enabled
+      name: ansible
+      repository: ""
+    description: A Helm chart for Kubernetes
+    digest: 170c676787c77da279d2e181f40a6b04bcd27e890fc1eb06680c33685559d236
+    name: sccstore-charts
+    type: application
+    urls:
+    - https://domenico-piol.github.io/SCCStore-Helm/sccstore-charts-1.2.2.tgz
+    version: 1.2.2
+  - apiVersion: v2
     appVersion: 1.2.1
-    created: "2023-08-09T15:25:16.50457+02:00"
+    created: "2023-08-09T15:50:55.990534+02:00"
     dependencies:
     - condition: database.enabled
       name: database
@@ -26,7 +52,7 @@ entries:
     version: 1.2.1
   - apiVersion: v2
     appVersion: 1.2.0
-    created: "2023-08-09T15:25:16.503945+02:00"
+    created: "2023-08-09T15:50:55.989727+02:00"
     dependencies:
     - condition: database.enabled
       name: database
@@ -49,7 +75,7 @@ entries:
     version: 1.2.0
   - apiVersion: v2
     appVersion: 1.1.8
-    created: "2023-08-09T15:25:16.503162+02:00"
+    created: "2023-08-09T15:50:55.988961+02:00"
     dependencies:
     - condition: database.enabled
       name: database
@@ -72,7 +98,7 @@ entries:
     version: 1.1.8
   - apiVersion: v2
     appVersion: 1.1.7
-    created: "2023-08-09T15:25:16.50226+02:00"
+    created: "2023-08-09T15:50:55.988066+02:00"
     dependencies:
     - condition: database.enabled
       name: database
@@ -95,7 +121,7 @@ entries:
     version: 1.1.7
   - apiVersion: v2
     appVersion: 1.1.6
-    created: "2023-08-09T15:25:16.501354+02:00"
+    created: "2023-08-09T15:50:55.987152+02:00"
     dependencies:
     - condition: database.enabled
       name: database
@@ -118,7 +144,7 @@ entries:
     version: 1.1.6
   - apiVersion: v2
     appVersion: 1.1.5
-    created: "2023-08-09T15:25:16.500635+02:00"
+    created: "2023-08-09T15:50:55.986389+02:00"
     dependencies:
     - condition: database.enabled
       name: database
@@ -141,7 +167,7 @@ entries:
     version: 1.1.5
   - apiVersion: v2
     appVersion: 1.1.4
-    created: "2023-08-09T15:25:16.499775+02:00"
+    created: "2023-08-09T15:50:55.985528+02:00"
     dependencies:
     - condition: database.enabled
       name: database
@@ -164,7 +190,7 @@ entries:
     version: 1.1.4
   - apiVersion: v2
     appVersion: 1.1.3
-    created: "2023-08-09T15:25:16.495751+02:00"
+    created: "2023-08-09T15:50:55.984742+02:00"
     dependencies:
     - condition: database.enabled
       name: database
@@ -187,7 +213,7 @@ entries:
     version: 1.1.3
   - apiVersion: v2
     appVersion: 1.1.2
-    created: "2023-08-09T15:25:16.494992+02:00"
+    created: "2023-08-09T15:50:55.982518+02:00"
     dependencies:
     - condition: database.enabled
       name: database
@@ -210,7 +236,7 @@ entries:
     version: 1.1.2
   - apiVersion: v2
     appVersion: 1.1.1
-    created: "2023-08-09T15:25:16.494308+02:00"
+    created: "2023-08-09T15:50:55.981783+02:00"
     dependencies:
     - condition: database.enabled
       name: database
@@ -233,7 +259,7 @@ entries:
     version: 1.1.1
   - apiVersion: v2
     appVersion: 1.1.0
-    created: "2023-08-09T15:25:16.493487+02:00"
+    created: "2023-08-09T15:50:55.981021+02:00"
     dependencies:
     - condition: database.enabled
       name: database
@@ -256,7 +282,7 @@ entries:
     version: 1.1.0
   - apiVersion: v2
     appVersion: 1.0.4
-    created: "2023-08-09T15:25:16.49275+02:00"
+    created: "2023-08-09T15:50:55.980285+02:00"
     dependencies:
     - condition: database.enabled
       name: database
@@ -279,7 +305,7 @@ entries:
     version: 1.0.4
   - apiVersion: v2
     appVersion: 1.0.3
-    created: "2023-08-09T15:25:16.491895+02:00"
+    created: "2023-08-09T15:50:55.979417+02:00"
     dependencies:
     - condition: database.enabled
       name: database
@@ -302,7 +328,7 @@ entries:
     version: 1.0.3
   - apiVersion: v2
     appVersion: 1.0.2
-    created: "2023-08-09T15:25:16.491199+02:00"
+    created: "2023-08-09T15:50:55.978697+02:00"
     dependencies:
     - condition: database.enabled
       name: database
@@ -325,7 +351,7 @@ entries:
     version: 1.0.2
   - apiVersion: v2
     appVersion: 1.0.1
-    created: "2023-08-09T15:25:16.490499+02:00"
+    created: "2023-08-09T15:50:55.977763+02:00"
     dependencies:
     - condition: database.enabled
       name: database
@@ -346,4 +372,4 @@ entries:
     urls:
     - https://domenico-piol.github.io/SCCStore-Helm/sccstore-charts-0.1.0.tgz
     version: 0.1.0
-generated: "2023-08-09T15:25:16.489104+02:00"
+generated: "2023-08-09T15:50:55.976327+02:00"
